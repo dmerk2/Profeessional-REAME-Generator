@@ -1,15 +1,15 @@
 {
-  "name": "homework",
+  "name": "README.md generator",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dan Merkin",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.1.0"
   },
-  "description": ""
+  "description": "README Generator"
 }
