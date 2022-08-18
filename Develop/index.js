@@ -1,14 +1,14 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer');
+const inquirer = require("inquirer");
 const fs = require('fs');
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-  return fs.writeFileSync(data.join (process.cwd(), "README.md"), generate(fileName) )
-}
+const writeToFile = (fileName, data) =>
+fs.writeFileSync('README.md', generateMarkdown(fileName, data));
 writeToFile(fileName, data);
 
 // TODO: Create a function to initialize app
