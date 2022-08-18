@@ -2,12 +2,10 @@
 
 ## Table of Contents
 
-
-
   - [User Story](#user-story)
+  - [Application](#application)
   - [Project Description](#project-description)
   - [Video-of-Application](#video-of-application)
-  - [Deployed URL Link](#deployed-url-link)
   - [Developed By](#developed-by)
 
 ## User Story
@@ -44,10 +42,6 @@ THEN a high quality and custom README file is generated
 
 ## Video of Application
 ---
-
-## Deployed URL Link
----
-
 
 ## Developed By
 ---
