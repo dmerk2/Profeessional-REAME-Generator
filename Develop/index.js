@@ -27,14 +27,14 @@ const questions = () => {
       message: "What is this project used for?",
     },
     {
-      type: "input",
+      type: "list",
       name: "license",
       message: "What license would you like to choose for this project?",
       // Create choices of which license to use
       choices: [
-        { key: "A", value: "GNU Affero General Public License v3.0" },
-        { key: "B", value: "GNU General Public License v2.0" },
-        { key: "C", value: "GNU General Public License v3.0" },
+        "GNU Affero General Public License v3.0",
+        "GNU General Public License v2.0",
+        "GNU General Public License v3.0",
       ],
     },
     {

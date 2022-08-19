@@ -1,4 +1,4 @@
-<h1># </h1>
+<h1></h1>
 
 ## Description
 
@@ -20,7 +20,7 @@ Installation instructions:
 
 
 ## License
-This application is  license.
+This application is GNU General Public License v2.0 license.
 
 ## Contributing
  contributed to this project.
