@@ -60,12 +60,13 @@ const questions = () => {
 // writeToFile(fileName, data);
 
 // TODO: Create a function to initialize app
-function init() {
+const init = () => {
   questions()
     // Use writeFileSync method to use promises instead of a callback function
-    .then((answers) => fs.writeFileSync("README.md", generateMarkdown(answers)))
+    .then((data) => fs.writeFileSync("README.md", generateMarkdown(data)))
+    // If it was successful console log Successfully wrote to README.md
     .then(() => console.log("Successfully wrote to README.md"))
-    .catch((err) => console.error(err));
+    .catch((err) => console.error("error", err));
 }
 
 // Function call to initialize app
