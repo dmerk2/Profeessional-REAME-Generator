@@ -30,6 +30,12 @@ const questions = () => {
       type: "input",
       name: "license",
       message: "What license would you like to choose for this project?",
+      // Create choices of which license to use
+      choices: [
+        { key: "A", value: "GNU Affero General Public License v3.0" },
+        { key: "B", value: "GNU General Public License v2.0" },
+        { key: "C", value: "GNU General Public License v3.0" },
+      ],
     },
     {
       type: "input",
@@ -65,9 +71,9 @@ const init = () => {
     // Use writeFileSync method to use promises instead of a callback function
     .then((data) => fs.writeFileSync("README.md", generateMarkdown(data)))
     // If it was successful console log Successfully wrote to README.md
-    .then(() => console.log("Successfully wrote to README.md"))
+    .then(() => console.log("Successfully wrote to README.md", "Choices: ", questions.license))
     .catch((err) => console.error("error", err));
-}
+};
 
 // Function call to initialize app
 init();
