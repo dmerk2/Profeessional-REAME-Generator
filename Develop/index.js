@@ -46,6 +46,7 @@ const questions = () => {
       type: "input",
       name: "tests",
       message: "Is your project a test?",
+      defualt: "N",
     },
     {
       type: "input",
@@ -60,18 +61,13 @@ const questions = () => {
   ]);
 };
 
-// TODO: Create a function to write README file
-// const writeToFile = (fileName, data) =>
-// fs.writeFileSync('README.md', generateMarkdown(fileName, data));
-// writeToFile(fileName, data);
-
 // TODO: Create a function to initialize app
 const init = () => {
   questions()
     // Use writeFileSync method to use promises instead of a callback function
     .then((data) => fs.writeFileSync("README.md", generateMarkdown(data)))
     // If it was successful console log Successfully wrote to README.md
-    .then(() => console.log("Successfully wrote to README.md", "Choices: ", questions.license))
+    .then(() => console.log("Successfully wrote to README.md"))
     .catch((err) => console.error("error", err));
 };
 
