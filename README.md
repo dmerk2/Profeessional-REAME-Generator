@@ -43,7 +43,7 @@ THEN a high quality and custom README file is generated
 ## Video of Application
 ---
 
-!['Video of app'](develop\media\Walk-through-video.gif)
+!['Video of app'](Develop\media\Walk-through-video.gif)
 
 ## Developed By
 ---
