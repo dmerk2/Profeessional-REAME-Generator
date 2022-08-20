@@ -1,4 +1,4 @@
-<h1></h1>
+<h1>qwwsxdc vbhjkmz</h1>
 
 ## Description
 
@@ -20,7 +20,7 @@ Installation instructions:
 
 
 ## License
-This application is using [GNU General Public License v3.0](https://www.gnu.org/GNU General Public License v3.0).
+This application is using [GNU Affero General Public License v3.0](https://www.gnu.org/GNU Affero General Public License v3.0).
 
 ## Contributing
  contributed to this project.
