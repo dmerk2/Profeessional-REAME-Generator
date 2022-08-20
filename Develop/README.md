@@ -1,7 +1,7 @@
-<h1>README generator</h1>
+<h1></h1>
 
 ## Description
-Create a quick README
+
 
 ## Table of Contents
  - [Description](#description)<br>
@@ -14,22 +14,22 @@ Create a quick README
 
 ## Installation
 Installation instructions:
-Node.js
+
 
 ## Usage
-A quick README generator
+
 
 ## License
-This application is using GNU General Public License v3.0.
+This application is using [GNU General Public License v3.0](https://www.gnu.org/GNU General Public License v3.0).
 
 ## Contributing
-Daniel Merkin contributed to this project.
+ contributed to this project.
 
 ## Tests
-No
+
 
 ## Questions
 Have any questions?<br>
-Check me out on GitHub! [dmerk2](https://github.com/dmerk2)<br>
-Shoot me an email at dan.merkin@gmail.com<br>
+Check me out on GitHub! [](https://github.com/)<br>
+Shoot me an email at <br>
 Generated with [README-generator](https://github.com/dmerk2/Professional-README-Generator)
