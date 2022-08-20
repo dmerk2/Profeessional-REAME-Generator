@@ -43,9 +43,7 @@ THEN a high quality and custom README file is generated
 ## Video of Application
 ---
 
-!['Video of app'](Develop\media\Walk-through-video.gif)
-
-!['Video of app'](Develop\media\Walk-through-video(1).gif)
+!['Video of app'](Develop/media/Walk-through-video.gif)
 
 <a href="https://watch.screencastify.com/v/NRhPkRb5cRIepc7yPF3A">Link to view the application in action</a>
 
