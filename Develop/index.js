@@ -49,7 +49,6 @@ const questions = () => {
       type: "input",
       name: "tests",
       message: "Is your project a test?",
-      defualt: "N",
     },
     {
       type: "input",
