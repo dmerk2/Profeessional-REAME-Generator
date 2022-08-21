@@ -1,16 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// const renderLicenseBadge = (license) => {
-//   if (license === "GNU-Affero-General-Public-License-v3.0") {
-//     return src = "https://raster.shields.io/badge/GNU--Affero--General--Public--License--v3.0-green";
-//   } else if (license === "GNU General Public License v2.0") {
-//     return src = "https://raster.shields.io/badge/-GNU%20General%20Public%20License%20v2.0-blue";
-//   } else if (license === "GNU General Public License v3.0") {
-//     return src = "https://raster.shields.io/badge/-GNU%20General%20Public%20License%3.0-orange";
-//   } else {
-//     return '';
-//   }
-// };
+const renderLicenseBadge = (license) => {
+  if (license === "GNU-Affero-General-Public-License-v3.0") {
+    return `![License Badge](https://raster.shields.io/badge/GNU--Affero--General--Public--License--v3.0-blue)`;
+  } else if (license === "GNU General Public License v2.0") {
+    return `![License Badge](https://raster.shields.io/badge/-GNU%20General%20Public%20License%20v2.0-orange)`;
+  } else if (license === "GNU General Public License v3.0") {
+    return `![License Badge](https://img.shields.io/badge/-GNU--Affero--General--Public--License--v3.0-green)`;
+  } else {
+    return '';
+  }
+};
 // renderLicenseBadge(license);
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -49,8 +49,7 @@ ${data.usage}
 
 ## License
 This application is using ${data.license}<br>
-![License](https://www.gnu.org/licenses/agpl-3.0.en.html)<br>
-![Badge](https://img.shields.io/badge/{GNU--Affero--General--Public--License--v3.0-green})
+${renderLicenseBadge(data.license)}<br>
 
 ## Contributing
 ${data.contributing} contributed to this project.
