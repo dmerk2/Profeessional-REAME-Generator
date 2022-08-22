@@ -18,12 +18,7 @@ const renderLicenseLink = (license) => {
   if (license === "GNU-Affero-General-Public-License-v3.0") {
     return `## GNU GENERAL PUBLIC LICENSE
     
-    Copyright (C) 1989, 1991 Free Software Foundation, Inc.  
-    51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
-    
-    Everyone is permitted to copy and distribute verbatim copies
-    of this license document, but changing it is not allowed.
-    Preamble
+
     The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation's software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Lesser General Public License instead.) You can apply it to your programs, too.
     
     When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
@@ -505,11 +500,7 @@ To do so, attach the following notices to the program. It is safest to attach th
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-Also add information on how to contact you by electronic and paper mail.`;
+    GNU General Public License for more details.`
   } else {
     return "";
   }
@@ -557,9 +548,7 @@ ${data.tests}
 
 ## Questions
 Have any questions?<br>
-Check me out on GitHub! [${data.username}](https://github.com/${
-    data.username
-  })<br>
+Check me out on GitHub! [${data.username}](https://github.com/${data.username})<br>
 Shoot me an email at ${data.email}<br>
 Generated with [README-generator](https://github.com/dmerk2/Professional-README-Generator)
 `;
